@@ -1,0 +1,64 @@
+/* html Datei */
+html {
+    scroll-behavior: smooth;
+
+    font-family: sans-serif;
+
+    --grey-100: hsl(0, 0%, 98%);
+    --grey-200: hsl(0, 0%, 65%);
+    --grey-300: hsl(0, 0%, 15%);
+
+    background-color: var(--grey-100);
+    color: var(--grey-300);
+
+    padding: 2rem 5rem;
+}
+
+/* body */
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/* media */
+@media (max-width: 700px) {
+    html{padding: 2rem;}
+}
+
+/* font anpassen */
+h4 {
+    letter-spacing: 1px;
+    color: var(--grey-200);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p{
+    max-width: 68ch;
+    padding-bottom: 2rem;
+}
+
+small{color: var(--grey-200);}
+
+/* Navigation */
+.nav a{
+    text-decoration: none;
+
+    color: var(--grey-300);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: var(--grey-200);
+
+    font-size: 2rem;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
