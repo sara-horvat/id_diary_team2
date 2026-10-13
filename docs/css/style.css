@@ -37,7 +37,7 @@ h1 {
     text-transform: uppercase;
 }
 
-p{
+p {
     max-width: 68ch;
     padding-bottom: 2rem;
 }
@@ -91,4 +91,9 @@ a{
 a:hover{
     color: var(--grey-200);
     font-weight: bold;
+}
+
+
+img {
+    width: 50%;
 }
