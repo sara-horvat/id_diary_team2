@@ -8,6 +8,8 @@ html {
     --grey-200: hsl(0, 0%, 65%);
     --grey-300: hsl(0, 0%, 15%);
 
+    --red:hsl(0, 78%, 46%);
+
     background-color: var(--grey-100);
     color: var(--grey-300);
 
@@ -42,15 +44,28 @@ p{
 
 small{color: var(--grey-200);}
 
+header a{
+    color: var(--grey-300);
+    font-size: var(--grey-300);
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* Navigation */
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .nav a{
     text-decoration: none;
 
     color: var(--grey-300);
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: light;
     text-transform: uppercase;
-
 }
 
 .nav a:hover{
@@ -61,4 +76,19 @@ small{color: var(--grey-200);}
     font-weight: bold;
 
     text-transform: uppercase;
+}
+
+/* Texte rot markieren */
+.red {color: var(--red);}
+
+/* links */
+a{
+    color: var(--grey-300);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--grey-200);
+    font-weight: bold;
 }
