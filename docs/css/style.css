@@ -92,3 +92,38 @@ a:hover{
     color: var(--grey-200);
     font-weight: bold;
 }
+
+/* Dropdown */
+.accordion {
+    background-color:  var(--grey-100);
+    cursor: pointer;
+
+    width: 100%;
+    text-align: left;
+
+    border: none;
+}
+.active,
+.accordion:hover {
+    background-color: var(--grey-200);
+}
+
+.accordion::after {
+    content: '\02795';
+    background-color: pink;
+    
+    float: right;
+}
+
+.active::after {
+    content: '\2796';
+}
+
+.panel {
+    background-color: blue;
+    display: none;
+}
+
+.panel.open {
+    display: block;
+}
