@@ -5,6 +5,7 @@ html {
     font-family: sans-serif;
 
     --grey-100: hsl(0, 0%, 98%);
+    --grey-150: hsl(0, 0%, 90%);
     --grey-200: hsl(0, 0%, 65%);
     --grey-300: hsl(0, 0%, 15%);
 
@@ -94,36 +95,34 @@ a:hover{
 }
 
 /* Dropdown */
+/* bei TASKS */
 .accordion {
-    background-color:  var(--grey-100);
     cursor: pointer;
-
-    width: 100%;
-    text-align: left;
-
+    
+    width: 100%; /* müssen wir noch umstellen das es an breite vom Text angepasst ist */
     border: none;
+    background-color:var(--grey-100);
+    color: var(--grey-300);
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+
+    padding: 1rem;
 }
+
 .active,
 .accordion:hover {
-    background-color: var(--grey-200);
+    background-color: var(--grey-150);
+    border-radius: 0.5rem;
 }
 
 .accordion::after {
     content: '\02795';
-    background-color: pink;
-    
     float: right;
 }
 
-.active::after {
-    content: '\2796';
-}
+.active::after {content: '\2796';}
 
-.panel {
-    background-color: blue;
-    display: none;
-}
+.panel {display: none;}
 
-.panel.open {
-    display: block;
-}
+.panel.open {display: block;}
