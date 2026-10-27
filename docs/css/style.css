@@ -21,6 +21,7 @@ html {
 body {
     margin: 0 auto;
     min-height: 100vh;
+    max-width: 600px;
 }
 
 /* media */
@@ -32,15 +33,20 @@ body {
 h4 {
     letter-spacing: 1px;
     color: var(--grey-200);
+    padding-left: 1rem;
 }
 
 h1 {
     text-transform: uppercase;
+    padding-left: 1rem;
 }
+
+h2{padding-left: 1rem;}
 
 p {
     max-width: 68ch;
     padding-bottom: 2rem;
+    padding-left: 1rem;
 }
 
 small{color: var(--grey-200);}
@@ -67,6 +73,8 @@ header a{
     font-size: 2rem;
     font-weight: light;
     text-transform: uppercase;
+
+    padding-left: 1rem;
 }
 
 .nav a:hover{
@@ -87,6 +95,8 @@ a{
     color: var(--grey-300);
     font-weight: bold;
     text-decoration: none;
+
+    padding-left: 1rem;
 }
 
 a:hover{
@@ -104,7 +114,7 @@ a:hover{
     background-color:var(--grey-100);
     color: var(--grey-300);
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 
     padding: 1rem;
