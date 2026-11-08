@@ -41,7 +41,7 @@ h1 {
     padding-left: 1rem;
 }
 
-h2{padding-left: 1rem;}
+h2 {padding-left: 1rem;}
 
 p {
     max-width: 68ch;
@@ -49,9 +49,9 @@ p {
     padding-left: 1rem;
 }
 
-small{color: var(--grey-200);}
+small {color: var(--grey-200);}
 
-header a{
+header a {
     color: var(--grey-300);
     font-size: var(--grey-300);
     font-size: 2rem;
@@ -66,7 +66,7 @@ header a{
     gap: 1rem;
 }
 
-.nav a{
+.nav a {
     text-decoration: none;
 
     color: var(--grey-300);
@@ -77,7 +77,7 @@ header a{
     padding-left: 1rem;
 }
 
-.nav a:hover{
+.nav a:hover {
     text-decoration: none;
     color: var(--grey-200);
 
@@ -91,7 +91,7 @@ header a{
 .red {color: var(--red);}
 
 /* links */
-a{
+a {
     color: var(--grey-300);
     font-weight: bold;
     text-decoration: none;
@@ -99,7 +99,7 @@ a{
     padding-left: 1rem;
 }
 
-a:hover{
+a:hover {
     color: var(--grey-200);
     font-weight: bold;
 }
@@ -109,7 +109,7 @@ a:hover{
 .accordion {
     cursor: pointer;
     
-    width: 100%; /* müssen wir noch umstellen das es an breite vom Text angepasst ist */
+    width: 100%;
     border: none;
     background-color:var(--grey-100);
     color: var(--grey-300);
@@ -123,7 +123,7 @@ a:hover{
 .active,
 .accordion:hover {
     background-color: var(--grey-150);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .accordion::after {
@@ -140,3 +140,27 @@ a:hover{
 /* listen elemente etwas auseinander  */
 li {line-height: 1.5;}
 ol, ul {padding-bottom: 2rem;}
+
+/* tabelle die für die Maps verwendet wird */
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+
+    margin-left: 1rem;
+}
+
+th, td {
+    border: 1px solid var(--grey-300);
+    padding: 1rem;
+    text-align: left;
+
+    /* Zeilenumbruch */
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    
+}
+
+.tabelle_fließtext th {font-weight: normal;}
