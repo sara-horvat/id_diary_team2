@@ -136,3 +136,7 @@ a:hover{
 .panel {display: none;}
 
 .panel.open {display: block;}
+
+/* listen elemente etwas auseinander  */
+
+li {line-height: 1.5;}
