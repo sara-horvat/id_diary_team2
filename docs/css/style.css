@@ -163,4 +163,7 @@ th, td {
     overflow-wrap: break-word; 
 }
 
-.tabelle_fließtext th {font-weight: normal;}
+.tabelle_fließtext th {
+    font-weight: normal;
+    vertical-align: top;
+}
