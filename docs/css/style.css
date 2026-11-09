@@ -149,6 +149,7 @@ table {
     width: 100%;
 
     margin-left: 1rem;
+    margin-bottom: 4rem;
 }
 
 th, td {
@@ -159,8 +160,7 @@ th, td {
     /* Zeilenumbruch */
     white-space: normal;
     word-break: break-word;
-    overflow-wrap: break-word;
-    
+    overflow-wrap: break-word; 
 }
 
 .tabelle_fließtext th {font-weight: normal;}
