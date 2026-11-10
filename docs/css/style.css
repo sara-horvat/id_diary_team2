@@ -105,7 +105,6 @@ a:hover {
 }
 
 /* Dropdown */
-/* bei TASKS */
 .accordion {
     cursor: pointer;
     
@@ -166,4 +165,12 @@ th, td {
 .tabelle_fließtext th {
     font-weight: normal;
     vertical-align: top;
+}
+
+/* Bilder auf den Rand angepasst */
+
+img {
+    box-sizing: border-box;
+    padding: 1rem ;
+    max-width: 100%;
 }
